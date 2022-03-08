@@ -1,0 +1,48 @@
+.wrapper {
+  max-width: 1260px;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+// Buttons
+
+Button {
+  padding: 10px 40px;
+  border-radius: 0px;
+  background-color: $buttonColor;
+  border-style: none;
+}
+
+// Hover and Focus
+
+a:hover,
+a:focus {
+  color: white;
+}
+
+button:hover,
+button:focus {
+  background-color: black;
+  color: $buttonColor;
+}
+
+.infoContainer a:hover,
+a:focus {
+  color: #ffff;
+  h5 {
+    color: $mainAltColor1;
+  }
+  i {
+    color: $mainAltColor1;
+    background-color: black;
+  }
+}
+
+// Contact <i>
+.contactSocial a:hover,
+a:focus {
+  i {
+    color: $mainColor;
+  }
+}

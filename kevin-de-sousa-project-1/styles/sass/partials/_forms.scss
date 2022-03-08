@@ -1,0 +1,31 @@
+form {
+  display: flex;
+  flex-direction: column;
+  .nameEmail {
+    display: flex;
+    justify-content: space-between;
+    input {
+      width: 49%;
+      height: 55px;
+      padding-left: 4%;
+      border: none;
+      margin-bottom: 3%;
+    }
+    input::placeholder {
+      font-family: $textFont;
+      opacity: 1;
+    }
+  }
+  textarea {
+    padding-left: 4%;
+    width: 100%;
+    padding-top: 5%;
+    border: none;
+    resize: none;
+    margin-bottom: 3%;
+  }
+  textarea::placeholder {
+    font-family: $textFont;
+    opacity: 1;
+  }
+}

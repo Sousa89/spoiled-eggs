@@ -1,0 +1,97 @@
+//  Font Variables
+
+// Body font
+
+@font-face {
+  font-family: "Cabin";
+  src: url("../../../fonts/Cabin/Cabin-VariableFont_wdth\,wght.ttf");
+  font-weight: normal;
+}
+
+// Headings font
+@font-face {
+  font-family: "Oswald";
+  src: url("../../../fonts/Oswald/static/Oswald-Bold.ttf");
+  font-weight: bold;
+}
+
+body {
+  font-family: $mainFont;
+  font-size: 1rem;
+  color: $mainFontColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $mainFont;
+  font-weight: bold;
+  color: $mainFontColor;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  font-family: $textFont;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+// nav header
+h1 {
+  font-size: 1.8rem;
+}
+// hero text
+h2 {
+  font-size: 7rem;
+  // line-height: 2.4rem;
+  // margin-bottom: 18px;
+}
+// Blog, Contact me
+h3 {
+  font-size: 4rem;
+  line-height: 4.6rem;
+  letter-spacing: 1px;
+}
+// who's harper, harpers journey
+h4 {
+  font-size: 2.1rem;
+  letter-spacing: 1px;
+}
+// Photos, about, harpers travels
+h5 {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+// About harper, recent posts
+h6 {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+button {
+  font-family: $mainFont;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.navLinks {
+  list-style: none;
+  a {
+    font-family: $mainFont;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.45rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,93 @@
+// -------INDEX HEADER--------
+
+.indexHeader {
+  background-color: $mainColor;
+  padding-top: 30px;
+  height: 600px;
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .heroImage {
+      width: 38%;
+      min-width: 262px;
+      box-shadow: 15px 14px 0 0 white;
+      position: absolute;
+      bottom: -45px;
+      img {
+        width: 100%;
+        min-width: 262px;
+        min-height: 366px;
+      }
+    }
+  }
+}
+
+.heroText {
+  width: 100%;
+  text-align: end;
+  padding-left: 45%;
+  padding-right: 10%;
+  h2 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  img {
+    max-height: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    min-width: 150px;
+    width: 15%;
+    position: absolute;
+    left: 70%;
+    bottom: 23%;
+  }
+}
+
+// ------BLOG HEADER--------
+
+.blogHeader {
+  background-color: $mainColor;
+  margin: 0 auto;
+  height: 42vh;
+  position: relative;
+  background-image: url(../assets/blog-image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1300px;
+  .wrapper {
+    h2 {
+      font-size: 4rem;
+      position: absolute;
+      bottom: -27px;
+    }
+  }
+}
+
+// ------------------------
+
+// -----CONTACT HEADER------
+
+.contactHeader {
+  background-color: $mainColor;
+  margin: 0 auto;
+  height: 42vh;
+  position: relative;
+  background-image: url(/assets/contact-image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1300px;
+  .wrapper {
+    h2 {
+      font-size: 4rem;
+      position: absolute;
+      bottom: -27px;
+    }
+  }
+}
+
+/* Element | http://127.0.0.1:5500/ */

@@ -1,0 +1,22 @@
+nav {
+  background-color: $mainColor;
+  height: 3rem;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  .wrapper {
+    display: flex;
+    height: 3rem;
+  }
+  .navLinks {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0px;
+    margin: 0 auto;
+    a {
+      margin: 0 10px;
+    }
+  }
+}
