@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lobster&family=Raleway:wght@500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Spoiled Eggs🥚Movie Generator</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="heroHeader">
+                <h1>
+                    Spoiled
+                    <img src="./assets/spoiled-egg.png" class="mobileEgg" alt="Cartoon spoiled egg">
+                    Eggs
+                </h1>
+                <img src="./assets/spoiled-egg.png" class="desktopEgg" alt="Cartoon spoiled egg">
+            </div>
+
+            <div class="intro">
+                <h2>"A rotten egg can't be spoiled"</h2>
+                <p>We here at Spoiled Eggs believe that good movies are fine, but predictable. Why not sit back, relax and take in the worst of the worst. No expectations, just glorious, absolute trash. These films are low budget b films, lazily made parodies, and high budget flops. Get ready for bad acting, cringe, and some of the best unintentional comedies you'll come across.</p>
+                <p>Now pick your preferences and punish yourself!</p>
+            </div>
+        </header>
+
+        <main>
+            <form action="">
+                <label for="genre">Pick your Genre!</label>
+                <select name="genre" id="genreSelect" class="genreSelect">
+                    <option selected>Random</option>
+                </select>
+
+                <label for="era">Pick your Era!</label>
+                <select name="era" id="eraSelect">
+                    <option selected>Random</option>
+                    <option value="modern">Modern</option>
+                    <option value="oldSchool">Old School</option>
+                    <option value="retro">Retro</option>
+                    <option value="goldenAge">Golden Age</option>
+                </select>
+                <button type="submit">Punish me</button>
+            </form>
+
+            <!-- Generated movie inserted here with JS :) -->
+            <div class="movieSectionContainer"></div>
+        </main>
+    </div>
+    <footer>
+        <p>Made by <a href="https://www.linkedin.com/in/de-sousa-kevin/">Sousa</a> and <a href="https://www.linkedin.com/in/maxine-power/">Maxine</a> @ <a href="https://junocollege.com/">Juno College</a> using the <a href="https://developers.themoviedb.org/"> TMDB API</a>.</p>
+    </footer>
+    <script src="./myscript.js"></script>
+</body>
+</html>
